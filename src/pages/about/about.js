@@ -20,15 +20,12 @@ const About = () =>  {
               <Container className="About-header" >
                
                <Layout/>
-               <div className="row About-main">
-                 <div className="col">
+               <Row className="About-main">
+                 
                  <Aboutcomp/>
-                 </div>
-                 
-                 
                  
                
-             </div>
+             </Row>
                
            </Container>
               </div> 

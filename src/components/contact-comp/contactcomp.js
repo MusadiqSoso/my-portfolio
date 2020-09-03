@@ -7,7 +7,7 @@ const Contactcomp = () => {
         <div>
             <section
         className="paralax-mf footer-paralax  sect-mt4 route" >
-        <div className="overlay-mf"></div>
+        <div className="overlay-mf">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
@@ -141,6 +141,7 @@ const Contactcomp = () => {
               </div>
             </div>
           </div>
+        </div>
         </div>
         
       </section>

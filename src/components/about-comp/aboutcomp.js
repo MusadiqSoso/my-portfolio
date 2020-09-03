@@ -66,13 +66,13 @@ class Aboutcomp extends React.Component {
             <div class="container">
               <div class="row">
               <div class="box-shadow-full">
-                <div class="col-6">
+                <div class="col-6 left">
                 <div className="skill-mf">
                       {/* <p className="title-s">Skill</p> */}
                       {this.state.skills.map(skill => {
                         return (
                           <React.Fragment key={skill.id}>
-                            <span>{skill.content}</span>{" "}
+                            <span>{skill.content}</span>
                             <span className="pull-right">
                               {skill.porcentage}
                             </span>
@@ -91,7 +91,7 @@ class Aboutcomp extends React.Component {
                       })}
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 right">
                 <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
                       </div>

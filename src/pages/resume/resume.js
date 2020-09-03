@@ -11,7 +11,7 @@ import particles from '../../const/about_particle';
 import {Helmet} from 'react-helmet';
 import Navbar from "../../components/navbar/navbar";
 import { Document } from 'react-pdf';
-import pdfFile from '../../resume.pdf';
+
 import Layout from '../../container/layout.container';
 
 const Resume = () => {
@@ -23,17 +23,17 @@ const Resume = () => {
                     <title>Resume | Musadiq Soso</title>
                     <meta name="description" content="Musadiq Soso | Front End Developer | Software Engineer" />
               </Helmet>
-              <Navbar/>
-          <Animate to="1" from="0" attributeName="opacity">
+              
+          
             
-          <Container className="App-header" fluid={true}>
+          <Container className="App-header" >
               <Layout/>
             <Row className="App-main">
-             <Document file={pdfFile}/>
+             <Document file={"./resume.pdf"}/>
             </Row>
            
         </Container>
-        </Animate>
+        
       </div>
     );
 }
