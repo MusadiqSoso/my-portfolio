@@ -17,15 +17,18 @@ const About = () =>  {
                     <title>About | Musadiq Soso</title>
 
               </Helmet>
-              <Container className="About-header" fluid={true}>
+              <Container className="About-header" >
                
                <Layout/>
-               <Row className="About-main">
-                 
+               <div className="row About-main">
+                 <div className="col">
                  <Aboutcomp/>
+                 </div>
+                 
+                 
                  
                
-             </Row>
+             </div>
                
            </Container>
               </div> 

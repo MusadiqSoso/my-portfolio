@@ -86,3 +86,82 @@
     line-height: 1.5;
     border-radius: .3rem;
   }
+  .ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: block;
+  }
+  .socials {
+    padding: 1.5rem 0;
+  }
+  
+  .socials ul li {
+    display: inline-block;
+  }
+  
+  .socials .ico-circle {
+    height: 40px;
+    width: 40px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 500ms ease;
+  }
+  
+  .socials .ico-circle:hover {
+    background-color: #0078ff;
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+  }
+  .socials ul,
+  .list-ico{
+    list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  }
+  .list-ico {
+    line-height: 2;
+  }
+  
+  .list-ico span {
+    color: #0078ff;
+    margin-right: 10px;
+  }
+  .title-box-2 {
+    margin-bottom: 3rem;
+  }
+  
+  .title-left {
+    font-size: 2rem;
+    position: relative;
+  }
+  
+  .title-left:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+  }
+  .sect-mt4 {
+    margin-top: 4rem;
+  }
+  .contact-mf {
+    margin-top: 4rem;
+  }
+  .more-info{
+    color: black;
+  }
+  .iconify{
+    color:black;
+  }

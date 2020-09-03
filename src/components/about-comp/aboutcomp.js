@@ -62,11 +62,11 @@ class Aboutcomp extends React.Component {
     }
         render(){
             return(
-              <section id="about" className="about-mf sect-pt4 route">
+              
             <div class="container">
-              <div class="box-shadow-full">
               <div class="row">
-                <div class="col">
+              <div class="box-shadow-full">
+                <div class="col-6">
                 <div className="skill-mf">
                       {/* <p className="title-s">Skill</p> */}
                       {this.state.skills.map(skill => {
@@ -91,7 +91,7 @@ class Aboutcomp extends React.Component {
                       })}
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-6">
                 <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
                       </div>
@@ -106,7 +106,7 @@ class Aboutcomp extends React.Component {
               </div>
               </div>
               </div>
-              </section>
+              
               
             );
         

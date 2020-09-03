@@ -1,6 +1,6 @@
 import React from "react";
 import '../../components/contact-comp/style.css';
-
+import Iconify from '@iconify/iconify';
 
 const Contactcomp = () => {
     return(
@@ -118,7 +118,7 @@ const Contactcomp = () => {
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-github"></i>
+                                <i className="iconify" data-icon="ion-social-github-outline"></i>
                               </span>
                             </a>
                           </li>
@@ -129,7 +129,7 @@ const Contactcomp = () => {
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-linkedin"></i>
+                                <i className="iconify" data-icon="ion-logo-linkedin"></i>
                               </span>
                             </a>
                           </li>
@@ -142,16 +142,7 @@ const Contactcomp = () => {
             </div>
           </div>
         </div>
-        <footer>
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-12">
-                <div className="copyright-box">
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
+        
       </section>
 
         </div>
@@ -159,4 +150,5 @@ const Contactcomp = () => {
 
 
 }
+
 export default Contactcomp;

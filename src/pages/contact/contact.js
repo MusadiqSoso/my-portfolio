@@ -17,15 +17,15 @@ const Contact = () => {
                 
         </Helmet>
         
-        <Animate to="1" from="0" attributeName="opacity">
+        
           
-          <Container className="Contact-header" fluid={true}>
+          <Container className="Contact-header" >
               <Layout/>
            <Row className="Contact-main">
            <Contactcomp/>
             </Row>
              </Container>
-       </Animate>
+       
       </div>
     )
   }
