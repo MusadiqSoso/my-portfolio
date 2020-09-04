@@ -6,7 +6,7 @@ import Resume from '../src/pages/resume/resume'
 ;function App() {
   return (
     <div className="App">
-      <Resume/>
+      <Home/>
       
     </div>
   );
