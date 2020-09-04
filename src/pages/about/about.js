@@ -1,10 +1,7 @@
 import React from 'react';
 import '../../pages/about/style.css';
-import {Container, Row,Col} from 'react-bootstrap';
-import Animate from 'react-smooth';
+import {Container} from 'react-bootstrap';
 import {Helmet} from 'react-helmet';
-import particles from '../../const/about_particle';
-import Particles from 'react-particles-js';
 import Layout from '../../container/layout.container';
 import Aboutcomp from '../../components/about-comp/aboutcomp';
 
@@ -17,17 +14,14 @@ const About = () =>  {
                     <title>About | Musadiq Soso</title>
 
               </Helmet>
-              <Container className="About-header" >
+              
                
                <Layout/>
-               <Row className="About-main">
-                 
+               <Container className="About-main" >
+               
                  <Aboutcomp/>
-                 
                
-             </Row>
-               
-           </Container>
+               </Container>
               </div> 
               
         );  

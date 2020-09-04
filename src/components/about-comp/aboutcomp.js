@@ -63,12 +63,13 @@ class Aboutcomp extends React.Component {
         render(){
             return(
               
-            <div class="container">
-              <div class="row">
-              <div class="box-shadow-full">
-                <div class="col-6 left">
+            
+          <div class="row">
+            <div class="box-shadow-full">
+              <div class="both">
+              <div class="col-6 left">
                 <div className="skill-mf">
-                      {/* <p className="title-s">Skill</p> */}
+                       <h5 className="title-left">Skill</h5> 
                       {this.state.skills.map(skill => {
                         return (
                           <React.Fragment key={skill.id}>
@@ -90,8 +91,11 @@ class Aboutcomp extends React.Component {
                         );
                       })}
                     </div>
-                </div>
-                <div class="col-6 right">
+              </div>
+             
+             
+              <div class="col-6 right">
+                <div class="about-mf">
                 <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
                       </div>
@@ -103,6 +107,7 @@ class Aboutcomp extends React.Component {
                         );
                       })}
                 </div>
+              </div>
               </div>
               </div>
               </div>

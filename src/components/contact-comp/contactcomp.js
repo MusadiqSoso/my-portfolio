@@ -1,5 +1,6 @@
 import React from "react";
 import '../../components/contact-comp/style.css';
+
 import Iconify from '@iconify/iconify';
 
 const Contactcomp = () => {

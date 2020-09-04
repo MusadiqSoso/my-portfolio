@@ -1,10 +1,7 @@
 import React from 'react';
 import '../../pages/contact/style.css';
 import {Container, Row} from 'react-bootstrap';
-import Animate from 'react-smooth';
 import {Helmet} from 'react-helmet';
-import particles from '../../const/contact_particle.js';
-import Particles from 'react-particles-js';
 import Layout from '../../container/layout.container';
 import Contactcomp from '../../components/contact-comp/contactcomp';
 

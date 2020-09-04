@@ -25,8 +25,10 @@ h5 {
   padding: 3rem 1.25rem;
   position: relative;
   background-color: #fff;
-  margin: 3rem;
+  margin: 7rem;
   height: auto;
+  padding-top: 1rem;
+  margin-top: 4rem;
   
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -56,18 +58,23 @@ h5 {
   height: .7rem;
   background-color: #0078ff;
 }
-/*.lead {
-  width: 40%;
-  font-size: 20px;
+.lead {
+  
+  font-size: 17px;
   text-align: left;
   
- }*/
+ }
 .pull-right{
   float: right;
 }
-@media (min-width: 768px) {
-  .box-shadow-full {
-    padding: 3rem;
-  }}
-
+.both{
+  column-count: 2;
+  column-gap: 40px;
   
+}
+  .skill-mf{
+    column-span: 1;
+  }
+  .about-mf{
+    display: inline-table;
+  }
