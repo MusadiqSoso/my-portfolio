@@ -11,7 +11,7 @@ const About = () => {
 				<meta charSet="utf-8" />
 				<title>About | Musadiq Soso</title>
 			</Helmet>
-			<Container className="About-main">
+			<Container className="About-main" >
 				<Aboutcomp />
 			</Container>
 		</div>

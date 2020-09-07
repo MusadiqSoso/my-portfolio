@@ -1,23 +1,24 @@
 ul {
     margin-top: 0;
     background-color: white;
+    
   }
-   
-  .navbar-nav { 
+.navbar-nav { 
     width: 100%;
+    display: inline-block;
     }
 
-    .link {
-      display: inline-block;
-      float: none;
+.link {
+    display: inline-block;
+    float: none;
     font-weight:50;
     font-size: 2rem;
     color:#0078ff;
-    transition: all 0.5s ease-in-out;
-    
+    transition: all 0.3s ease-in-out;
+    text-decoration:"none"
   }
 
-      a {
+ a {
         padding-left: 30px;
         padding-right: 30px;
         padding-top: 15px;
@@ -27,8 +28,12 @@ ul {
         
         }
         
-        .link:hover{
+.link:hover{
           color: red;
           transition: all 0.5s ease-in-out;
+          text-decoration: none;
 
+          
         }
+
+       

@@ -1,11 +1,13 @@
 import React from "react";
 import Typed from "react-typed";
 import "../home-comp/style.css";
+import Yo from "../../img/bals.jpg"
 
 
 const Homecomp = () => {
     return(
-        <div>
+        
+          <section id="about" className="about-mf sect-pt4 route" style={{ backgroundImage: "url(" + Yo + ")" }}>
             <h1 className="intro-title mb-4">Hello, I am Musadiq Soso</h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
@@ -23,7 +25,8 @@ const Homecomp = () => {
                   />
                 </strong>
               </p>
-        </div>
+              </section>
+        
 
     );
 }

@@ -1,12 +1,14 @@
 h1 {
     text-align: center;
-    margin-top: 17%;
+    margin-top: 7%;
     font-weight: 600;
-   font-size: 5rem;
+   font-size: 7rem;
+   color: #0078ff;
   }
 
   p {
    text-align: center;
-   font-size: 3rem;
-   font-weight: 300;
+   font-size: 4rem;
+   font-weight: 350;
+   color: #0078ff;
   }

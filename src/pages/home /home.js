@@ -8,7 +8,7 @@ import Homecomp from "../../components/home-comp/homecomp";
 
 const Home = () => {
 	return (
-		<div>
+		<div className="bg">
 			<Helmet>
 				<meta charSet="utf-8" />
 				<title>Home | Musadiq Soso</title>

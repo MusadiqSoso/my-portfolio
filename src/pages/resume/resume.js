@@ -5,6 +5,8 @@ import { Container, Row } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import { Document } from "react-pdf";
 import Layout from "../../container/layout.container";
+import Pic from "../../img/fbg2.jpg";
+import Pdf from "../resume/resume.pdf";
 
 const Resume = () => {
 	return (
@@ -12,12 +14,27 @@ const Resume = () => {
 			<Helmet>
 				<meta charSet="utf-8" />
 				<title>Resume | Musadiq Soso</title>
-				<meta name="description" content="Musadiq Soso | Front End Developer | Software Engineer" />
 			</Helmet>
-
-			<Container className="App-header">
-				<Row className="App-main">
-					<Document file={"./resume.pdf"} />
+			<Container className="Resume-header">
+				<Row className="Resume-main">
+        <section id="resume" className="resume-mf sect-pt4 route " style={{ backgroundImage: "url(" + Pic + ")" }}>
+        <div className="container">
+                <div className="row">
+                  <div className="col-sm-12">
+                    <div className="box-shadow-full">
+                      <div className="row">
+                        <div className="col-md-6">
+                        <iframe width="850" height="600px" src={Pdf}/>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+            </section>
+					
 				</Row>
 			</Container>
 		</div>

@@ -1,6 +1,4 @@
-.contact-mf {
-    margin-top: 4rem;
-  }
+
   #sendmessage {
     color: #0078ff;
     border: 1px solid #0078ff;
@@ -159,4 +157,22 @@
   }
   .iconify{
     color: black;
+  }
+  
+  .lead{
+    color: black;
+  }
+  .box-shadow-full {
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin: 7rem;
+    height: auto;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    width: 900px;
+    
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    
   }
