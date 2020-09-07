@@ -23,7 +23,7 @@ const Contactcomp = () => {
                     </div>
                     <div>
                       <form
-                        action="https://formspree.io/xdoeonlo"
+                        action="mailto:musadiq.soso@yahoo.ca"
                         method="POST"
                         className="contactForm"
                       >
