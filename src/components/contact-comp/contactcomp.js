@@ -1,6 +1,6 @@
 import React from "react";
 import '../../components/contact-comp/style.css';
-import Hazard from "../../img/fbg2.jpg";
+
 
 import Iconify from '@iconify/iconify';
 
