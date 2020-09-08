@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet";
 import { Document } from "react-pdf";
 import Layout from "../../container/layout.container";
 import Pic from "../../img/fbg2.jpg";
-import Pdf from "../resume/ResumeFinal.pdf";
+import Pdf from "../resume/MusadiqFinal.pdf";
 
 const Resume = () => {
 	return (
