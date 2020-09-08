@@ -11,7 +11,7 @@ const Home = () => {
 		<div className="bg">
 			<Helmet>
 				<meta charSet="utf-8" />
-				<title>Home | Musadiq Soso</title>
+				<title> Musadiq Soso</title>
 			</Helmet>
 			<Container className="Home-main">
 				<Homecomp />
