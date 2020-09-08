@@ -24,7 +24,7 @@ const Resume = () => {
                     <div className="box-shadow-full">
                       <div className="row">
                         <div className="col-md-6">
-                        <iframe width="850" height="600px" src={Pdf}/>
+                        <iframe width="650x" height="600px" src={Pdf}/>
                           
                         </div>
                       </div>
