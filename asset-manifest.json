@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.137b8429.chunk.css",
+    "main.js": "/static/js/main.7727fcd9.chunk.js",
+    "main.js.map": "/static/js/main.7727fcd9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6b3488d1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6b3488d1.js.map",
+    "static/js/2.f0007b87.chunk.js": "/static/js/2.f0007b87.chunk.js",
+    "static/js/2.f0007b87.chunk.js.map": "/static/js/2.f0007b87.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cefa767b7e9fc5c80e624de6543a7b39.js": "/precache-manifest.cefa767b7e9fc5c80e624de6543a7b39.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.137b8429.chunk.css.map": "/static/css/main.137b8429.chunk.css.map",
+    "static/js/2.f0007b87.chunk.js.LICENSE.txt": "/static/js/2.f0007b87.chunk.js.LICENSE.txt",
+    "static/media/MusadiqFinal.pdf": "/static/media/MusadiqFinal.160b1515.pdf",
+    "static/media/bals.jpg": "/static/media/bals.27ab047e.jpg",
+    "static/media/fbg2.jpg": "/static/media/fbg2.f0e39a33.jpg",
+    "static/media/male1.png": "/static/media/male1.3ec3891b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b3488d1.js",
+    "static/js/2.f0007b87.chunk.js",
+    "static/css/main.137b8429.chunk.css",
+    "static/js/main.7727fcd9.chunk.js"
+  ]
+}
