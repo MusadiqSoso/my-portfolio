@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.69d99e9f.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.21d894b3.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.21d894b3.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.8b00eace.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.8b00eace.js.map",
-    "static/js/2.425a7230.chunk.js": "/my-portfolio/static/js/2.425a7230.chunk.js",
-    "static/js/2.425a7230.chunk.js.map": "/my-portfolio/static/js/2.425a7230.chunk.js.map",
-    "index.html": "/my-portfolio/index.html",
-    "precache-manifest.900b810a3a3b5c60e58423a4498a3f80.js": "/my-portfolio/precache-manifest.900b810a3a3b5c60e58423a4498a3f80.js",
-    "service-worker.js": "/my-portfolio/service-worker.js",
-    "static/css/main.69d99e9f.chunk.css.map": "/my-portfolio/static/css/main.69d99e9f.chunk.css.map",
-    "static/js/2.425a7230.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.425a7230.chunk.js.LICENSE.txt",
-    "static/media/MusadiqFinal.pdf": "/my-portfolio/static/media/MusadiqFinal.160b1515.pdf",
-    "static/media/bals.jpg": "/my-portfolio/static/media/bals.27ab047e.jpg",
-    "static/media/fbg2.jpg": "/my-portfolio/static/media/fbg2.f0e39a33.jpg",
-    "static/media/male1.png": "/my-portfolio/static/media/male1.3ec3891b.png"
+    "main.css": "/MusadiqSoso/my-portfolio.github.io/static/css/main.f5398af0.chunk.css",
+    "main.js": "/MusadiqSoso/my-portfolio.github.io/static/js/main.c1b129fb.chunk.js",
+    "main.js.map": "/MusadiqSoso/my-portfolio.github.io/static/js/main.c1b129fb.chunk.js.map",
+    "runtime-main.js": "/MusadiqSoso/my-portfolio.github.io/static/js/runtime-main.fde16255.js",
+    "runtime-main.js.map": "/MusadiqSoso/my-portfolio.github.io/static/js/runtime-main.fde16255.js.map",
+    "static/js/2.425a7230.chunk.js": "/MusadiqSoso/my-portfolio.github.io/static/js/2.425a7230.chunk.js",
+    "static/js/2.425a7230.chunk.js.map": "/MusadiqSoso/my-portfolio.github.io/static/js/2.425a7230.chunk.js.map",
+    "index.html": "/MusadiqSoso/my-portfolio.github.io/index.html",
+    "precache-manifest.850b7e91d9036e595c23cdeb83f7cbee.js": "/MusadiqSoso/my-portfolio.github.io/precache-manifest.850b7e91d9036e595c23cdeb83f7cbee.js",
+    "service-worker.js": "/MusadiqSoso/my-portfolio.github.io/service-worker.js",
+    "static/css/main.f5398af0.chunk.css.map": "/MusadiqSoso/my-portfolio.github.io/static/css/main.f5398af0.chunk.css.map",
+    "static/js/2.425a7230.chunk.js.LICENSE.txt": "/MusadiqSoso/my-portfolio.github.io/static/js/2.425a7230.chunk.js.LICENSE.txt",
+    "static/media/bals.jpg": "/MusadiqSoso/my-portfolio.github.io/static/media/bals.27ab047e.jpg",
+    "static/media/fbg2.jpg": "/MusadiqSoso/my-portfolio.github.io/static/media/fbg2.f0e39a33.jpg",
+    "static/media/male1.png": "/MusadiqSoso/my-portfolio.github.io/static/media/male1.3ec3891b.png",
+    "static/media/resumeMain.pdf": "/MusadiqSoso/my-portfolio.github.io/static/media/resumeMain.ea0df485.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.8b00eace.js",
+    "static/js/runtime-main.fde16255.js",
     "static/js/2.425a7230.chunk.js",
-    "static/css/main.69d99e9f.chunk.css",
-    "static/js/main.21d894b3.chunk.js"
+    "static/css/main.f5398af0.chunk.css",
+    "static/js/main.c1b129fb.chunk.js"
   ]
 }
