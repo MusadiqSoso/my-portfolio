@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://musadiqsoso.github.io/",
+  "homepage": "https://musadiqsoso.github.io",
   "dependencies": {
     "@iconify/iconify": "^1.0.7",
     "@iconify/react": "^1.1.3",
