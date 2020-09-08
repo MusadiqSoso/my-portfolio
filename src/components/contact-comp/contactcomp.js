@@ -8,7 +8,7 @@ const Contactcomp = () => {
     return(
       <section id="contact"
       className="paralax-mf footer-paralax bg-image sect-mt4 route"
-      style={{ backgroundImage: "url(" + Hazard + ")" }}
+      
     >
       <div className="overlay-mf"></div>
       <div className="container">
@@ -109,7 +109,7 @@ const Contactcomp = () => {
                         collaboration, or just say hi, I'd love to hear from
                         you.
                         <br />
-                        Simply fill the from and send me an email, also my social links are attached below.
+                        Simply fill the from and send me an email, also my social media links are attached below.
                       </p>
                       {/* <!-- <ul class="list-ico">
                               <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
@@ -121,7 +121,7 @@ const Contactcomp = () => {
                       <ul>
                         <li>
                           <a
-                            href=""
+                            href="https://github.com/MusadiqSoso"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -132,7 +132,7 @@ const Contactcomp = () => {
                         </li>
                         <li>
                           <a
-                            href=""
+                            href="https://www.linkedin.com/in/musadiq-soso/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >

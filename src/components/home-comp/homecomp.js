@@ -14,9 +14,9 @@ const Homecomp = () => {
                 <strong className="text-slider">
                   <Typed
                     strings={[
-                      "Front End Developer",
-                      "Software Engineer",
-                      "Use Navbar Above To Navigate"
+                      "Software Developer",
+                      "Use Navbar Above To Navigate",
+                      "This was made with React JS"
                     ]}
                     typeSpeed={80}
                     backDelay={1100}

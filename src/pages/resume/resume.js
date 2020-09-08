@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet";
 import { Document } from "react-pdf";
 import Layout from "../../container/layout.container";
 import Pic from "../../img/fbg2.jpg";
-import Pdf from "../resume/resume.pdf";
+import Pdf from "../resume/ResumeFinal.pdf";
 
 const Resume = () => {
 	return (
@@ -17,7 +17,7 @@ const Resume = () => {
 			</Helmet>
 			<Container className="Resume-header">
 				<Row className="Resume-main">
-        <section id="resume" className="resume-mf sect-pt4 route " style={{ backgroundImage: "url(" + Pic + ")" }}>
+        <section id="resume" className="resume-mf sect-pt4 route " >
         <div className="container">
                 <div className="row">
                   <div className="col-sm-12">

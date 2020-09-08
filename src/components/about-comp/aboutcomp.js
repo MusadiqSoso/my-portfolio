@@ -1,6 +1,6 @@
 import React from 'react';
 import "../about-comp/style.css";
-import Hazard from "../../img/fbg2.jpg";
+import Male from "../../img/male1.png"
 
 
 class Aboutcomp extends React.Component {
@@ -9,14 +9,14 @@ class Aboutcomp extends React.Component {
         this.state = {
             skills: [
               { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-              { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+              { id: "CSS_skill", content: "CSS", porcentage: "75%", value: "75" },
               {
                 id: "JavaScript_skill",
                 content: "JavaScript",
-                porcentage: "90%",
-                value: "90"
+                porcentage: "80%",
+                value: "80"
               },
-              { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
+              { id: "Java_skill", content: "Java", porcentage: "75%", value: "75" },
               {
                 id: "ReactJS_skill",
                 content: "ReactJS",
@@ -24,38 +24,38 @@ class Aboutcomp extends React.Component {
                 value: "80"
               },
               {
-                id: "Python_skill",
-                content: "Python",
-                porcentage: "75%",
-                value: "75"
+                id: "Git_skill",
+                content: "Git",
+                porcentage: "80%",
+                value: "80"
               },
               {
-                id: "VanillaJS_skill",
-                content: "VanillaJS",
+                id: "NodeJS_skill",
+                content: "NodeJS",
                 porcentage: "85%",
                 value: "85"
               },
               {
-                id: "Wordpress_skill",
-                content: "Wordpress",
-                porcentage: "80%",
-                value: "80"
+                id: "SQL_skill",
+                content: "SQL",
+                porcentage: "75%",
+                value: "75"
               }
             ],
             about_me: [
               {
                 id: "first-p-about",
                 content:
-                  "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+                  ""
               },
               {id: "second-p-about",
               content:
-                "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+                "Hey, My name is Musadiq Soso as you already know. Thank you for taking the time to explore my About me page, I am a recent Software engineering graduate from the University of Ontario Institute of Technology. At the moment I am in search of employment in the Software/IT industry, while searching for jobs I have also used this free time to nurture and develop my Technical skills by taking on courses and projects so as to be a hundred per cent ready for my next employer. I like to call myself a Software Developer, I have some experience in Software/IT as a front-end Web Developer Intern which I learned a lot and I’m grateful for. If you wish to get in touch with or learn further about me you can Navigate to the Contact page Thank you."
             },
             {
               id: "third-p-about",
               content:
-                "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+                ""
             }
           ]
         }
@@ -64,7 +64,7 @@ class Aboutcomp extends React.Component {
             return(
               
             
-              <section id="about" className="about-mf sect-pt4 route" style={{ backgroundImage: "url(" + Hazard + ")" }}>
+              <section id="about" className="about-mf sect-pt4 route" >
               <div className="container">
                 <div className="row">
                   <div className="col-sm-12">
@@ -83,6 +83,7 @@ class Aboutcomp extends React.Component {
                                 <img
                                   className="img-fluid rounded b-shadow-a"
                                   alt=""
+                                  src={Male}
                                 />
                               </div>
                             </div>
@@ -115,6 +116,7 @@ class Aboutcomp extends React.Component {
                           <div className="about-me pt-4 pt-md-0">
                             <div className="title-box-2">
                               <h5 className="title-left">About Me</h5>
+                              
                             </div>
                             {this.state.about_me.map(content => {
                               return (
