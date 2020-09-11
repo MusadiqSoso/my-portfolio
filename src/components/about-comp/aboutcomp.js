@@ -67,10 +67,10 @@ class Aboutcomp extends React.Component {
               <section id="about" className="about-mf sect-pt4 route" >
               <div className="container">
                 <div className="row">
-                  <div className="col-sm-12">
+                  <div className="col-xs-12 col-sm-12 ">
                     <div className="box-shadow-full">
                       <div className="row">
-                        <div className="col-md-6">
+                        <div className=" col-md-6">
                           <div className="row">
                             <div
                               className="col-sm-6 col-md-5"

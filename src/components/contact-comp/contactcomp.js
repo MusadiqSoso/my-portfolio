@@ -26,6 +26,7 @@ const Contactcomp = () => {
                         action="mailto:musadiq.soso@yahoo.ca"
                         method="POST"
                         className="contactForm"
+                        enctype="text/plain"
                       >
                         <div id="sendmessage">
                           Your message has been sent. Thank you!

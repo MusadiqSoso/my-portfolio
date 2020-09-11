@@ -62,16 +62,19 @@ h5 {
   font-size: 17px;
   text-align: left;
   
+  
  }
 .pull-right{
   float: right;
 }
 
-.lead {
-  color: black;
-  font-size: 16px;
-  
-  
- }
  
- 
+ @media (min-width: 767px) {
+  .about-mf .box-pl2 {
+    margin-top: 3rem;
+    padding-left: 0rem;
+  }}
+  @media (min-width: 768px) {
+    .box-shadow-full {
+      padding: 3rem;
+    }}

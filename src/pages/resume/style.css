@@ -4,10 +4,10 @@
 }
 .box-shadow-full {
     padding: 3rem 1.25rem;
-    position: relative;
+    position: fixed;
     background-color: #fff;
     margin: 7rem;
-    height: auto;
+    height: 90vh;
     padding-top: 1rem;
     margin-top: 1rem;
     
@@ -19,4 +19,8 @@
   }
   
   
-  
+    
+  iframe{
+      width:50vw;
+      height: 80vw;
+  }

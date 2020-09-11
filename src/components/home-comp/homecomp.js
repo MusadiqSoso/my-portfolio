@@ -7,7 +7,7 @@ import Yo from "../../img/bals.jpg"
 const Homecomp = () => {
     return(
         
-          <section id="about" className="about-mf sect-pt4 route" style={{ backgroundImage: "url(" + Yo + ")" }}>
+          <section id="about" className="about-mf sect-pt4 route" style={ { backgroundSize:"contain",backgroundPosition:"center",    backgroundImage: "url(" + Yo + ")" }}>
             <h1 className="intro-title mb-4">Hello, I am Musadiq Soso</h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
